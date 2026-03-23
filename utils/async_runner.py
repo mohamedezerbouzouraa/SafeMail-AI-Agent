@@ -5,8 +5,7 @@ from services.session_service import USER_ID, SESSION_ID
 async def call_agent_async(email_text: str):
     content = types.Content(
         role="user",
-        parts=[types.Part(text=email_text)]
-    )
+        parts=[types.Part(text=email_text)])
 
     final_response = "No response."
 

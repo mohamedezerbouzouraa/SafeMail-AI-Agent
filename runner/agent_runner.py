@@ -8,4 +8,5 @@ email_agent = EmailAgent(get_model())
 runner = Runner(
     agent=email_agent,
     app_name=APP_NAME,
-    session_service=session_service)
+    session_service=session_service
+)

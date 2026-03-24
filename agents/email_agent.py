@@ -41,5 +41,4 @@ Suggested Reply:
                             text = response.text
                         return [Part()]
                 return Content()
-
-        yield Event()
+         yield Event()

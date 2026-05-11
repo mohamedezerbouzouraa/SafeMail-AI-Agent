@@ -4,7 +4,6 @@ class EmailAgent(BaseAgent):
    
     def __init__(self, model):
         self.model = model
-
     async def run(self, user_id, session_id, message):
         prompt = f"""
 You are an AI Email Assistant.

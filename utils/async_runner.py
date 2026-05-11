@@ -6,7 +6,6 @@ async def call_agent_async(email_text: str):
     content = types.Content(
         role="user",
         parts=[types.Part(text=email_text)])
-
     final_response = "No response."
 
     async for event in runner.run_async(

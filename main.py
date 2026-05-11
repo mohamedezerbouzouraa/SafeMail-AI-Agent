@@ -6,7 +6,6 @@ from services.session_service import create_session
 nest_asyncio.apply()
 async def main():
     await create_session()
-
     await call_agent_async("""
 Hi John,
 

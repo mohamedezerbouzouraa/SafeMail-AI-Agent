@@ -4,7 +4,6 @@ from config.model_config import get_model
 from services.session_service import session_service, APP_NAME
 
 email_agent = EmailAgent(get_model())
-
 runner = Runner(
     agent=email_agent,
     app_name=APP_NAME,

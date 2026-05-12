@@ -8,7 +8,6 @@ async def main():
     await create_session()
     await call_agent_async("""
 Hi John,
-
 Just a reminder that the project deadline is tomorrow.
 Please send me the final report before 5 PM.
 

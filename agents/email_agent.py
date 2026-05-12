@@ -1,7 +1,6 @@
 from agents.base_agent import BaseAgent
 
 class EmailAgent(BaseAgent):
-   
     def __init__(self, model):
         self.model = model
     async def run(self, user_id, session_id, message):

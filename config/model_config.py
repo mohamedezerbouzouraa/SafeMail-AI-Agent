@@ -4,7 +4,6 @@ from google.generativeai import GenerativeModel, GenerationConfig
 genai.configure(api_key="YOUR_API_KEY")
 
 AGENT_MODEL = "models/gemini-1.5-pro-latest"
-
 safety_settings = [
     {   "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
         "threshold": "BLOCK_LOW_AND_ABOVE",},]
